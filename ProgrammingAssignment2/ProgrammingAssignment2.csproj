@@ -67,6 +67,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\atc.png" />
+    <Content Include="images\atc1.bmp" />
+    <Content Include="images\bg_head2.png" />
+    <Content Include="images\healthHeader2.png" />
+    <Content Include="images\healthHeader3.jpg" />
+    <Content Include="images\healthHeader4a.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\recipes.jpg" />
+    <Content Include="images\weights.jpg" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
