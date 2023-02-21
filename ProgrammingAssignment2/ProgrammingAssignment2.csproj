@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="daniel.html" />
+    <Content Include="exercise.html" />
     <Content Include="Health.html" />
     <Content Include="images\atc.png" />
     <Content Include="images\atc1.bmp" />
@@ -95,8 +97,10 @@
     <Content Include="images\weights.jpg" />
     <Content Include="index.html" />
     <Content Include="Parenting.html" />
+    <Content Include="soul.html" />
     <Content Include="store_index.html" />
     <Content Include="Web.config" />
+    <Content Include="wheat.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
