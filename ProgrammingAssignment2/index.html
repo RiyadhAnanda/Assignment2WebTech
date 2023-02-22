@@ -5,25 +5,27 @@
     <title>Balanced Living Website</title>
 
      <style type="text/css">
-        /*Float left will allow div elements to align side by side left to right, heigh 75px sets the height of each div to be equivalent*/
+
+        /*floatleft will allow div elements to align side by side left to right, height 75px sets the height of each div to be equivalent*/
         .floatleft
         {
-        float: left; 
-        height: 75px;
-        
+            float: left; 
+            height: 75px;
         }
+
         /*div1 contains the right borderline used to seperate each individual div in the banner section*/
          .div1
-        {
+         {
              border-right-style: solid;
              height: 75px;
              border-right-width: 2.00px;
              padding-right: 1.5em;
              padding-left: 1.5em;
          }
+
         /*wrapper acts as a container for all the div elements in the banner*/
          .wrapper
-        {
+         {
              border-width: 1.75px;
              border-color: rgb(0, 0, 0);
              width: 100%;
@@ -32,8 +34,9 @@
              border: 2.00px solid rgb(0, 0, 0);
          }
 
-        /*this span will allow the text style/format to be altered in the second div of the banner section*/
-         span {
+         /*this span will allow the text style/format to be altered in the second div of the banner section*/
+         span 
+         {
              font-family: "Brush Script MT";
              font-size: large;
          }
@@ -41,23 +44,27 @@
         /*set width and height of the html page to 100%*/
         html, body 
         {
-        height: 100%;
-        width: 100%;
+            height: 100%;
+            width: 100%;
    
-        }         
-        /*Initialize menu_bar, this will act as a container for all the elements in the dropdown menu bar list*/       
-         .menu_bar {
+        }    
+     
+         /*initialize menu_bar, this will act as a container for all the elements in the dropdown menu bar list*/       
+         .menu_bar 
+         {
              position: relative;
              width: 100em;
              left: 25em;
          }
+
          /*menu1 will control the attributes for each seperate smaller element of the drop down menu elements*/
-         .menu1          {
+         .menu1          
+         {
              border: 2.0px solid rgb(0,0,0);
              font-family: arial;
              font-weight: bold;
              font-size: 11px;
-             color: white; /*padding-left: 1em;*/
+             color: white; 
              text-align: center;
              width: 10em;
              height: 25px;
@@ -65,12 +72,16 @@
              background-color: #2224A2;
              
          }
-        /*adds hover functionality to menu*/
-         .menu1:hover a  {
+
+         /*adds hover functionality to menu*/
+         .menu1:hover a  
+         {
              display: block
          }
-        /*actions taken whenever hover action is performed*/
-         .menu1 a        {
+
+         /*actions taken whenever hover action is performed*/
+         .menu1 a        
+         {
              display: none;
              width: 10em;
              text-decoration: none;
@@ -83,28 +94,30 @@
              top: 1.25em;
              z-index: 3;
          }
-          /*functionality for when the sub-dropdown list is also hovered*/
-         .menu1 a:hover  {
+
+         /*functionality for when the sub-dropdown list is also hovered*/
+         .menu1 a:hover  
+         {
              color: #FFFFFF;
              background-color: rgb(60,139,225);
          }
 
-         
-         .wrapper2 {
+         /*wrapper2 is the container for the left most contents, */
+         .wrapper2 
+         {
              border-style: solid;
              border-width: 2.0px;
-            background-color: #2224A2;
+             background-color: #2224A2;
              margin-bottom: .5em;
-              left: -400px;
-             position: absolute; /* Since the divs are all wrapped together, using absolute position will move all the div elements*/
+             left: -25em;
+             position: absolute; 
              top: 70px;
-            
              z-index: 1;
              height: 450px;
              width: 20%;
          }
 
-
+         /*div2 will contain the attributes for each hyperlinked image contained in the wrapper2 containter*/
          .div2 {
              height: 100px;
              padding-top: 25px;
@@ -114,12 +127,16 @@
              
          }
 
+         /*center will align the last image of wrapper2 to the center of the container*/
          .center
-        {
+         {
              position: absolute;
              left: 1.25em;
          }
-         .text_front1 {
+
+         /*text_front1 will place the hyperlink message above the image in the wrapper2 container by manipulation of the z-index*/
+         .text_front1 
+         {
              position: absolute;
              top: 80px;
              left: 110px;
@@ -128,7 +145,10 @@
              font-family: "Brush Script MT";
              
          }
-        .text_front2 {
+            
+        /*text_front2 will place the hyperlink message above the image in the wrapper2 container by manipulation of the z-index*/
+        .text_front2 
+        {
              position: absolute;
              top: 210px;
              left: 110px;
@@ -136,8 +156,11 @@
              font-size: 13pt;
              font-family: "Brush Script MT";
             
-         }
-        .text_front3 {
+        }
+        
+        /*text_front3 will place the hyperlink message above the image in the wrapper3 container by manipulation of the z-index*/
+        .text_front3 
+        {
              position: absolute;
              top: 347px;
              left: 118px;
@@ -145,70 +168,77 @@
              font-size: 10pt;
              font-family: "Brush Script MT";
              
-         }
+        }
     
-         .wrapper3 {
+        /*wrapper3 acts as the container for all the elements in the middle block mission statement*/    
+        .wrapper3 
+        {
              border-style: solid;
              border-width: 2.0px;
              background-color: #CCCCCC;
              margin-bottom: .5em;
-             position: absolute; /* Since the divs are all wrapped together, using absolute position will move all the div elements*/
+             position: absolute; 
              top: 70px;
-             left: 350px;
+             left: 25em;
              z-index: 1;
              height: 450px;
              width: 20%;
              font-size: 12px;
              font-weight: bolder;
-         }
-
-         .middle1 {
+        }
+        
+        /*middle1 aligns the middle paragraph of the mission statement*/
+        .middle1 
+        {
              padding: 1em;
              width: 296px;
              height: 175px;
-         }
-            
-         .middle2 {
+        }
+           
+        /*middle2 aligns the bottom picture of the mission statement block*/
+        .middle2 
+        {
              padding: 2em;
              width: 296px;
              height: 175px;
-         }
-         .wrapper4 {
+        }
+
+        /*wrapper4 acts as a container for all the elements on the right side of the webpage*/
+        .wrapper4 
+        {
              border-style: solid;
              border-width: 2.0px;
              background-color: white;
              margin-bottom: .5em;
-             position: absolute; /* Since the divs are all wrapped together, using absolute position will move all the div elements*/;
+             position: absolute; 
              top: 70px;
              right: 40em;
              height: 450px;
              width: 10%;
              font-size: 12px;
-         }
-         div3 {
-            
+        }
+        
+        /*div3 will space/pad the elements in wrapper4 appropriately*/
+        div3 
+        {
           width: 250px;
           height: 300px;
-          /*Padding will affect the spacing of elements within the div*/
           padding-top: 1em;
-         }
-
-         
-
-
-         
-
+        }
   </style>
-
 </head>
+
 
 <!-- set body background color to 2224A2 -->
 <body bgcolor="#2224A2">
     
   <!-- section for div 1 banner -->
   <div class="wrapper">
+    <!-- places balanced living in top left of banner -->
     <div class="div1 floatleft"><img src="images/logo.png" height="75" style="margin-top: 0px"  /></div>
+    <!-- places Balanced Living text in banner -->
     <div class="div1 floatleft"><span> Balanced  <BR/>Living- a  <BR/>Lifestyle!  </span></div>
+    <!-- places Health image in banner -->
     <div class="floatleft"><img src="images/healthHeader2.png" height ="75"/></div>
   </div>
 
